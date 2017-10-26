@@ -172,6 +172,9 @@ subset1$from<-gsub("Caster Halle", "Caister", subset1$from)
 # John Paston II
 subset1$from<-gsub("Sir John Paston", "John Paston II", subset1$from)
 subset1$from<-gsub("John Paston The Eldest Son", "John Paston II", subset1$from)
+
+subset1$from<-gsub("Sir Johnny Paston", "John Paston II", subset1$from)
+
 subset1$from<-gsub("John Paston The Elder Son", "John Paston II", subset1$from)
 subset1$from<-gsub("John Paston Junior", "John Paston II", subset1$from)
 
